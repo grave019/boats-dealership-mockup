@@ -18,20 +18,34 @@
                 <a class="navbar-brand" href="#"><img src="./images/crownline-logo-lg.PNG" alt="Image of Crownline Logo"></a>
                 <ul class="nav navbar-nav">
                     <li><a href="./hmtl/boats.html">BOATS</a></li>
-                    <li>BUILD A BOAT</li>
-                    <li>OWNERS</li>
-                    <li>SHOP</li>
-                    <li>BLOG</li>
-                    <li>
+                    <li><a href="#build">
+                        BUILD A BOAT</a></li>
+                        <!-- added link to dealer locater at crownline's existing website for owner's manuals to give greater navbar functionality. All Links externally should open in a new tab  -->
+                    <li><a href="https://crownline.com/owner-resources/" target="blank">
+                        OWNERS</li>
+                    <!-- added link to dealer locater at crownline's existing website for choosing a boat to give greater navbar functionality. All Links externally should open in a new tab  -->
+                    <li><a href="https://crownline.com/2020-crownline-boat-models/" target="blank">
+                        SHOP</a></li>
+                    <li><a href="#blog">BLOG</a></li>
+                    <!-- added link to the Crownline's existing facebook for greater navbar functionality. External links should open in a new tab  -->
+                    <li><a href="https://www.facebook.com/OfficialCrownlineBoats/" target="blank">
                         <i class="fab fa-facebook fa-xs"></i>
+                    </a>
                     </li>
-                    <li>
+                   <!-- added link to the Crownline's existing instagram for greater navbar functionality. External links should open in a new tab  --> 
+                    <li><a href="https://www.instagram.com/crownlineboats/?hl=en"target= "blank">
                         <i class="fab fa-instagram fa-xs"></i>
+                    </a>
                     </li>
-                    <li>
+                    <!-- added link to the Crownline's existing youtube for greater functionality. External links should open in a new tab  -->
+                    <li><a href="https://www.youtube.com/c/CrownlineBoating" target="blank">
                         <i class="fab fa-youtube fa-xs"></i>
+                    </a>
                     </li>
-                    <li>FIND A DEALER</li>
+                    <!-- added link to dealer locater at crownline's existing website to give greater navbar functionality. All Links externally should open in a new tab  -->
+                    <li><a href="https://crownline.com/dealer-locator/" target="blank">
+                        FIND A DEALER</a></li>
+                    </a>
                 </ul>
             </div>
         </div>
@@ -69,16 +83,18 @@
     <!-- container with 3 featured videos -->
         <!-- button to view more -->
     <div class="container">
-        <h1>Featured Videos</h1>
-        <video src=""></video>
-        <video src=""></video>
-        <video src=""></video>
-        <button>View More</button>
+        <div class="featured-videos">
+            <h1>Featured Videos</h1>
+            <video src="https://youtu.be/B6U8fPWQJ1s"></video>
+            <video src=""></video>
+            <video src=""></video>
+            <button class="featured-video-button">View More</button>
+        </div>
     </div>
     <!-- transparent container with h1 -->
         <!-- button to get started -->
     <div class="container">
-        <div class="transparent">
+        <div class="transparent" id="build">
             <h1>Customize the Jewel in the Crown</h1>
             <button>Get Started</button>
         </div>
@@ -86,26 +102,29 @@
     <!-- container for the Crownline Blog -->
         <!-- button to view more -->
     <div class="container">
-        <h1>Crownline Blog</h1>
-        <br>
-        <div class="spring-boating">
-            <img src="" alt="">
-            <h6>Spring Boating: 3 Ways to Prepare for Launch</h6>
-            <p>Is it possible that summer gets too much cedit? Sure, it's when the sun shines the brightest and the weather is the warmest, but spring comes right after winter -which means spring is the most- anticipated boating season of the year.</p>
+        <div class="blog" id="blog">
+
+            <h1>Crownline Blog</h1>
+            <br>
+            <div class="spring-boating">
+                <img src="" alt="">
+                <h6>Spring Boating: 3 Ways to Prepare for Launch</h6>
+                <p>Is it possible that summer gets too much cedit? Sure, it's when the sun shines the brightest and the weather is the warmest, but spring comes right after winter -which means spring is the most- anticipated boating season of the year.</p>
+            </div>
+            <div class="winter-ready">
+                <img src="" alt="">
+                <h6>Get Your Boat Cabin Ready for Winter</h6>
+                <p>As winter sets in, now is the time to make sure your boat's cabin is ready for frigid temperatures. Cabins can get musty and moldy if not properly cared for over the winter months.</p>
+            </div>
+            <div class="know-boats">
+                <img src="" alt="">
+                <h6>Know Your Boats</h6>
+                <p>There are a lot of different types of boats out there, and no one type meets all needs for all people. At Crownline, we strive to create a large variety of options to appeal to boaters' wants and needs.</p>
+            </div>
+            <button>View More</button>
         </div>
-        <div class="winter-ready">
-            <img src="" alt="">
-            <h6>Get Your Boat Cabin Ready for Winter</h6>
-            <p>As winter sets in, now is the time to make sure your boat's cabin is ready for frigid temperatures. Cabins can get musty and moldy if not properly cared for over the winter months.</p>
-        </div>
-        <div class="know-boats">
-            <img src="" alt="">
-            <h6>Know Your Boats</h6>
-            <p>There are a lot of different types of boats out there, and no one type meets all needs for all people. At Crownline, we strive to create a large variety of options to appeal to boaters' wants and needs.</p>
-        </div>
-        <button>View More</button>
     </div>
-    <!-- container with NMMA certification -->
+        <!-- container with NMMA certification -->
     <div class="container">
         <div class="nmma-certified">
             <img src="" alt="">

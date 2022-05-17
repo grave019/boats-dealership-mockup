@@ -5,3 +5,20 @@ body {
 .container { display: flex;
 
 }
+
+.featured-videos {
+    background-color: lightskyblue;
+}
+
+.featured-video-button {
+    border: 1px solid lightskyblue;
+    background-color: white;
+    color: lightskyblue;
+    
+}
+
+.featured-video-button:hover {
+    border: 1px white;
+    background-color: lightskyblue;
+    color: white;
+}
