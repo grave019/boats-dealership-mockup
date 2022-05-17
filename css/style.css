@@ -2,6 +2,10 @@ body {
     background-color: lightgrey;
 }
 
+ul {
+    list-style: none;
+}
+
 nav {
     float: left;
     width: 100%;
