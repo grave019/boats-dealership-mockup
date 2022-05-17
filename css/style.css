@@ -1,4 +1,6 @@
-
+body {
+    background-color: lightgray;
+}
 
 ul {
     list-style: none;
@@ -43,12 +45,31 @@ nav li {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 100%;
   position: relative;
   margin: auto;
 }
 
+.myslides {
+    position: relative;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 20px;
+   display: block;    
+   width: auto;
+   height: auto;
+   max-width: 2000px;
+}
+.btn-carousel {
+    color: white;
+    background-color: lightskyblue;
+    position: absolute;
+    height: 50px;
+}
 
+.btn-carousel:hover {
+    background-color: transparent;
+}
 
 /* Next & previous buttons */
 .prev, .next {
@@ -116,7 +137,7 @@ nav li {
 /* Fading animation */
 .fade {
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 5s;
 }
 
 @keyframes fade {
