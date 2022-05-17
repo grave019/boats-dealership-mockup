@@ -144,3 +144,129 @@ nav li {
   from {opacity: .4} 
   to {opacity: 1}
 }
+
+
+
+
+
+/* model.html CSS STYLES  */
+
+.build-yours {
+    background-color: lightskyblue;
+    color: white;
+}
+.build-yours:hover {
+    background-color:white;
+    color: lightskyblue;
+    border:lightskyblue 1px;
+}
+.request-brochure {
+    background-color: lightskyblue;
+    color: white;
+}
+
+.request-brochure:hover {
+    background-color:white;
+    color: lightskyblue;
+    border:lightskyblue 1px;
+}
+
+.play-icon {
+  width:76px;
+  height:82px;
+  color:white;
+  background-color: lightskyblue;
+}
+
+.btn-play-icon {
+  color:white;
+  background-color: lightskyblue;
+}
+
+
+.play-icon:hover {
+  background-color: white;
+  color:lightskyblue;
+  border:lightskyblue 1px;
+}
+
+.btn-play-icon:hover {
+  background-color: white;
+  color:lightskyblue;
+  border:lightskyblue 1px;
+}
+
+.boat-specs-icon {
+  width:76px;
+  height:82px;
+  color:white;
+  background-color: lightskyblue;
+}
+
+.btn-boat-specs {
+  color:white;
+  background-color: lightskyblue;
+}
+
+
+.boat-specs-icon:hover {
+  background-color: white;
+  color:lightskyblue;
+  border:lightskyblue 1px;
+}
+
+.btn-boat-specs:hover {
+  background-color: white;
+  color:lightskyblue;
+  border:lightskyblue 1px;
+}
+
+.gallery-icon {
+  width:76px;
+  height:82px;
+  color:white;
+  background-color: lightskyblue;
+}
+
+.btn-gallery {
+  color:white;
+  background-color: lightskyblue;
+}
+
+
+.gallery-icon:hover {
+  background-color: white;
+  color:lightskyblue;
+  border:lightskyblue 1px;
+}
+
+.btn-gallery:hover {
+  background-color: white;
+  color:lightskyblue;
+  border:lightskyblue 1px;
+}
+
+.info-icon {
+  width:76px;
+  height:82px;
+  color:white;
+  background-color: lightskyblue;
+}
+
+.btn-info {
+  color:white;
+  background-color: lightskyblue;
+}
+
+
+.info-icon:hover {
+  background-color: white;
+  color:lightskyblue;
+  border:lightskyblue 1px;
+}
+
+.btn-info:hover {
+  background-color: white;
+  color:lightskyblue;
+  border:lightskyblue 1px;
+}
