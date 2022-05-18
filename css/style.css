@@ -16,18 +16,34 @@ nav li {
     padding: 0 10px;
 }
 
-.container { display: flex;
+.container { 
+  display: flex;
 
 }
 
 .featured-videos {
     background-color: lightskyblue;
+    width: 1540px;
+    height: 545px;
+}
+
+.featured-vid {
+  color:white;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-images {
+  display: inline-flex;
+  justify-content: space-between;
 }
 
 .featured-video-button {
     border: 1px solid lightskyblue;
     background-color: white;
     color: lightskyblue;
+    width:168px;
+    height:50px;
     
 }
 
@@ -35,9 +51,38 @@ nav li {
     border: 1px white;
     background-color: lightskyblue;
     color: white;
+    border: white 1px;
 }
 
+.fast-tab {
+  color:lightskyblue;
+}
 
+.crown-blog {
+  color:lightskyblue;
+  display: flex;
+  justify-content: flex-start;
+}
+.blog {
+  display: flex;
+}
+
+.view-more {
+  flex-wrap: nowrap;
+  background-color: lightskyblue;
+  color:white; 
+}
+
+.view-more:hover {
+  background-color: white;
+  color:lightskyblue;
+  border:lightskyblue 1px;
+}
+
+.nmma-certified {
+  background-color: lightskyblue;
+  display: flex;
+}
 
 /* Carousel CSS */
 
@@ -45,7 +90,8 @@ nav li {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 100%;
+  width:1540px;
+  height:599px;
   position: relative;
   margin: auto;
 }
@@ -145,11 +191,48 @@ nav li {
   to {opacity: 1}
 }
 
+/* Secondary carousel Styles  */
 
 
 
+/* footer styles  */
+footer {
+  background-color: #606060;
+  color:white;
+}
+
+.contact-details {
+  color:lightskyblue;
+  display: inline;
+}
+
+.footer-btn-1 {
+  background-color: lightskyblue;
+  color: white;
+}
+
+.footer-btn-1:hover {
+  background-color: #606060;
+  border: 5px lightskyblue;
+}
+
+.footer-btn-2 {
+  background-color: lightskyblue;
+  color:white;
+}
+.footer-btn-2:hover {
+  background-color: #606060;
+  border:5px lightskyblue
+}
 
 /* model.html CSS STYLES  */
+
+.icon-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+
+}
 
 .build-yours {
     background-color: lightskyblue;
@@ -179,6 +262,8 @@ nav li {
 }
 
 .btn-play-icon {
+  width: 336px;
+  height: 143 px;
   color:white;
   background-color: lightskyblue;
 }
@@ -204,6 +289,8 @@ nav li {
 }
 
 .btn-boat-specs {
+  width: 336px;
+  height:143px;
   color:white;
   background-color: lightskyblue;
 }
@@ -229,6 +316,8 @@ nav li {
 }
 
 .btn-gallery {
+  width: 336px;
+  height: 143px;
   color:white;
   background-color: lightskyblue;
 }
@@ -254,6 +343,8 @@ nav li {
 }
 
 .btn-info {
+  width: 336px;
+  height: 143px;
   color:white;
   background-color: lightskyblue;
 }
@@ -269,4 +360,13 @@ nav li {
   background-color: white;
   color:lightskyblue;
   border:lightskyblue 1px;
+}
+
+.table {
+  background-color: #292b2d;
+  color:lightsteelblue;
+}
+
+.sim-boats {
+  background-color: #f0f0f0;
 }
