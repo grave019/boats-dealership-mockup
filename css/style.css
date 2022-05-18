@@ -370,3 +370,27 @@ footer {
 .sim-boats {
   background-color: #f0f0f0;
 }
+
+.gallery-container {
+  display: flex;
+  background-color: lightskyblue;
+  color: white;
+}
+
+.gallery-heading {
+  
+
+}
+
+img-table {
+  width:1000px; 
+}
+.img-table img {
+  width:30%;
+  height:auto;
+  display:inline;
+  margin: 2px .5%; 
+}
+
+
+
