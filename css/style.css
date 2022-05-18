@@ -343,7 +343,9 @@ footer {
 }
 
 .btn-info {
-  width: 336px;
+  display: flexbox;
+  flex-direction: row;
+  width: 300px;
   height: 143px;
   color:white;
   background-color: lightskyblue;
@@ -394,3 +396,39 @@ img-table {
 
 
 
+
+
+/* styles for boats.html  */
+
+
+.checkbox-heading {
+  color:lightskyblue;
+}
+
+.ss-series-heading {
+  color:lightskyblue;
+}
+
+.container-ss {
+  display: flex;
+  display: flexbox;
+  flex-direction: row;
+}
+
+.ss-lpx-heading {
+  color:lightskyblue;
+}
+
+.eclipse-heading {
+  color:lightskyblue;
+}
+
+.img-with-text {
+  text-align: justify;
+  width: 400px;
+}
+
+.img-with-text img {
+  display: block;
+  margin: 0 auto;
+}
