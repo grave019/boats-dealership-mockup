@@ -203,7 +203,7 @@ footer {
 
 .contact-details {
   color:lightskyblue;
-  display: inline;
+  display: inline-block;
 }
 
 .footer-btn-1 {
