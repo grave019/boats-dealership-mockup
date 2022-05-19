@@ -42,7 +42,7 @@
 
   ## Visualizations
 
-  Below are a image that shows layout of the navbar at 2256px wide.
+  Below are a images that shows layout of the navbar at 2256px wide.
   ![image of inspector tool at 2256px wide](./images/2256-inspector-tool.png)
   landing page full screen
   ![landing fullscreen](./images/fullframeoflandingnav.jpeg)
