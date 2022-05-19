@@ -15,8 +15,10 @@
         <!-- boats -->
     <nav class="navbar navbar-default navbar-expand-lg">
         <!-- <div class="container"> -->
-            <div class="navbar-header">                
+            <div class="navbar-header">
+                
                 <div class="nav-menu-body-container">
+
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
@@ -97,7 +99,10 @@
 
                           <a class="social-media-icon" href="https://www.youtube.com/c/CrownlineBoating" target="blank">
                           <i class="fab fa-youtube fa-xs"></i>
-                        </a>                            
+                        </a>
+
+
+                            
                           </li>
                           <!-- added link to the Crownline's existing instagram for greater navbar functionality. External links should open in a new tab  --> 
                           <li>
@@ -167,94 +172,106 @@
 
 
   <!-- secondary carousel code here  -->
-  <div class="container">
+  <div class="series-container">
         <div class="left-angle">
-          <i class="fa-solid fa-angle-left"></i>
+          <i class="fa-solid fa-angle-left" id="lower-back"></i>
         </div>
-          <div class="series-img">
-            <img src="./images/sub_carousel_finseeker.png" alt="Image of Finseeker">
+          <div class="series-img-space">
+            <img class="series-img" src="./images/sub_carousel_finseeker.png" alt="Image of Finseeker">
           </div>
-          <div class="series-img">
-            <img src="./images/sub_carousel_SS_series.png" alt="Image of SS Series">
+          <div class="series-img-space">
+            <img class="series-img" src="./images/sub_carousel_SS_series.png" alt="Image of SS Series">
           </div>
-          <div class="series-img">
-            <img src="./images/sub_carousel_LPX_series.png" alt="image of LPX Series">
+          <div class="series-img-space">
+            <img class="series-img" src="./images/sub_carousel_LPX_series.png" alt="image of LPX Series">
           </div>
-          <div class="series-img">
-            <img src="./images/sub_carousel_Eclipse_series.png" alt="image of Eclipse Series">
+          <div class="series-img-space">
+            <img class="series-img" src="./images/sub_carousel_Eclipse_series.png" alt="image of Eclipse Series">
           </div>
         <div class="right-angle">
-          <i class="fa-solid fa-angle-right"></i>
+          <i class="fa-solid fa-angle-right" id="lower-forward"></i>
         </div>
     </div>
   
 
       
     <!-- container with with paragraph and image -->
-    <div class="container">
+    <div class="fast-tab-container">
       <div class="fast-tab-detail">
-        <span class="fast-tab"><h1>F.A.S.T. Tab Hull</h1></span>
+        <span><h3 class="fast-tab">F.A.S.T. Tab Hull</h3></span>
+        <div class="fast-tab-explained">
           <p>Patended and proven, Crownline's F.A.S.T. TAB Hull Design is one of the most efficient and attractive hull designs on the market today, improving slow-speed stability, time to plane acceleration and fuel economy.</p>
           <p>The acronym stands for fin-assisted safe turn. In practice, F.A.S.T. Tab Hull's vented chines aerate the running surface to reduce drag, and the fin like tabs deep those vents from producing handling quirks.the hull sticks in turns, is responsive to trim, and really airs out at speed. Chop back the throttle and your can feel the vents working as the boat glides along the quite some distance before settling off plane.</p>
           <p>There's always positive control with the most unique sport boat hull system running today.</p>
         </div>
-        <div class="fast-tab-image">
-          <img src="./images/fast_tab_hull_xray.png" alt="Image of FAST Tab Hull X-Ray" width="675px" height="400px">
+        </div>
+        <div>
+          <img class="fast-tab-image" src="./images/fast_tab_hull_xray.png" alt="Image of FAST Tab Hull X-Ray" width="675px" height="400px">
         </div>
     </div>
     <!-- container with 3 featured videos -->
         <!-- button to view more -->
-    <div class="container">
+    <div class="featured-videos-container">
         <div class="featured-videos">
-            <span class="featured-vid"><h1>Featured Videos</h1></span>
-           <ul class="video-images">
-             <li><img src="./images/E_205_XS_test_and_review_video.png" alt="Image of Test and Review Crownline E 205 XS" width="463px" height="262px"></li>
-             <li><img src="./images/Surf_test_and_review_video.png" alt="Image of Test and Review Crownline Surf"width="463px" height="262px"></li>
-             <li><img src="./images/290_XSS_test_and_review_video.png" alt="Test and Review Crownline 290XSS"width="463px" height="262px"></li>
+            <span><h3 class="featured-video-title">Featured Videos</h3></span>
+           <ul class="video-images-area">
+             <li><img class="video-images"src="./images/E_205_XS_test_and_review_video.png" alt="Image of Test and Review Crownline E 205 XS" width="463px" height="262px"></li>
+             <li><img class="video-images" src="./images/Surf_test_and_review_video.png" alt="Image of Test and Review Crownline Surf"width="463px" height="262px"></li>
+             <li><img class="video-images" src="./images/290_XSS_test_and_review_video.png" alt="Test and Review Crownline 290XSS"width="463px" height="262px"></li>
            </ul>
-            <button class="featured-video-button">View More</button>
+            <button class="featured-video-view-more-button">View More</button>
         </div>
-    </div>    <!-- transparent container with h1 -->
+    </div>    <!-- transparent container -->
         <!-- button to get started -->
-    <div class="container">
-        <div class="transparent" id="build">
-          <img src="./images/homepage_hidden_background_jewel_in_crown.png" alt="image if boat with fabric patterns" class="transparent-img">
-            <h1>Customize the Jewel in the Crown</h1>
+    <div class="transparent-container">
+        <div id="build">
+            <img  class="transparent-img"src="./images/customize-the_jewel_in_crown.png" alt="">
             <button class="btn-transparent">Get Started</button>
         </div>
     </div>
     <!-- container for the Crownline Blog -->
         <!-- button to view more -->
-        <span class="crown-blog"><h1>Crownline Blog</h1></span>
-    <div class="container">
+    <div class="blog-container">
+      <span><h3 class="crownline-blog-title">Crownline Blog</h3></span>
       <br>
       <div class="blog" id="blog">
             <div class="spring-boating">
-                <img src="./images/3_ways_to_prepare.png" alt="close up of crownline logo">
-                <h6>Spring Boating: 3 Ways to Prepare for Launch</h6>
-                <p>Is it possible that summer gets too much cedit? Sure, it's when the sun shines the brightest and the weather is the warmest, but spring comes right after winter -which means spring is the most- anticipated boating season of the year.</p>
-            </div>
+                <img class="blog-images" src="./images/3_ways_to_prepare.png" alt="close up of crownline logo">
+                <div class="blog-description">
+
+                  <h5>Spring Boating: 3 Ways to Prepare for Launch</h5>
+                  <p>Is it possible that summer gets too much cedit? Sure, it's when the sun shines the brightest and the weather is the warmest, but spring comes right after winter -which means spring is the most- anticipated boating season of the year.</p>
+                </div>
+              </div>
             <div class="winter-ready">
-                <img src="./images/get_ready_for_winter.png" alt="image of crownline cabin">
-                <h6>Get Your Boat Cabin Ready for Winter</h6>
-                <p>As winter sets in, now is the time to make sure your boat's cabin is ready for frigid temperatures. Cabins can get musty and moldy if not properly cared for over the winter months.</p>
-            </div>
-            <div class="know-boats">
-                <img src="./images/know_your_boats.png" alt="image of outer schematics of boat series">
-                <h6>Know Your Boats</h6>
-                <p>There are a lot of different types of boats out there, and no one type meets all needs for all people. At Crownline, we strive to create a large variety of options to appeal to boaters' wants and needs.</p>
-            </div>
+                <img class="blog-images" src="./images/get_ready_for_winter.png" alt="image of crownline cabin">
+                <div class="blog-description">
+
+                  <h5>Get Your Boat Cabin Ready for Winter</h5>
+                  <p>As winter sets in, now is the time to make sure your boat's cabin is ready for frigid temperatures. Cabins can get musty and moldy if not properly cared for over the winter months.</p>
+                </div>
+              </div>
+                <div class="know-boats">
+                <img class="blog-images" src="./images/know_your_boats.png" alt="image of outer schematics of boat series">
+                <div class="blog-description">
+
+                  <h5>Know Your Boats</h5>
+                  <p>There are a lot of different types of boats out there, and no one type meets all needs for all people. At Crownline, we strive to create a large variety of options to appeal to boaters' wants and needs.</p>
+                </div>
+              </div>
             <br>
-            <div>
-              <button class="view-more">View More</button>
-            </div>
-        </div>
+          </div>
+          <div>
+            <button class="blog-view-more">View More</button>
+          </div>
     </div>
         <!-- container with NMMA certification -->
-    <div class="container">
+    <div class="nmma-container">
         <div class="nmma-certified">
-            <img src="./images/NMMA_logo.png" alt="certification of NMMA">
+            <img class="nmma-logo" src="./images/NMMA_logo.png" alt="certification of NMMA">
+            <div class="nmma-description">
             <p>Crownline Boats are without a doubt the most exciting and progressive boats on the market today. Our innovative design philosophies have always set us apart from the crowd, sporty, sophisticated, and classy. Our design team is always looking for ways to take our boats to the next level. Unique beauty, luxury, convenience, funtionality, quality, and performance are the focus of our Research and Development division at Crownline. This is where it all begins</p>
+          </div>
         </div>
     </div>
     <footer>
@@ -396,14 +413,14 @@
                         </li> 
                         <li>
 
-                            <p>Copyright 2021 - 2022 All rights reserved
-                            </p>
                         </li>
-                    </ul>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-        </div>
+              <p class="copyright">Copyright 2021 - 2022 All rights reserved
+              </p>
       </footer>
       <!-- Bootstrap JS -->
 

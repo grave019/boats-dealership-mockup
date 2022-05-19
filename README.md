@@ -13,10 +13,9 @@
   ## Table of Contents
   
   * [Goals](#goals)
-  * [Motivation](#motivation) 
-  * [Installation](#installation)  
-  * [Test](#test)
+  * [Motivation](#motivation)   
   * [Problems](#problems)
+  * [Visualizations](#Visualizations)
   * [Acknowledgements](#acknowledgements)
   * [Resources](#resources)
   * [License](#license) 
@@ -32,13 +31,19 @@
 
   ## Motivation
 
-  Design a facsimile for a proposed update to an existing company's website for the purpose of demonstrating my current level of knowledge and capabilities.
+  * Design a facsimile for a proposed update to an existing company's website for the purpose of demonstrating my current level of knowledge and capabilities.
 
   ## Problems
 
   * During the development process I've had the website open with visual studio code's Live Server in order to trouble shoot styling during the coding process. The browser width during coding was set at 1960px. However, outside of live server the navbar begins to collapse below a width of 2256px. I have provided images and link to a video displaying page functionality.
   
   * Some design elements were difficult to replicate and I tried produce them to the best of my ability. I welcome any feedback you could give on the site. 
+
+
+  ## Visualizations
+
+  Below is a image that shows layout of the navbar at 2256px wide
+  ![image of inspector tool at 2256px wide](./images/2256-inspector-tool.png)
 
   ## Acknowledgements
 
