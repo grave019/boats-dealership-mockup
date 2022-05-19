@@ -808,19 +808,81 @@ margin: 2px .5%;
 
 /* styles for boats.html  */
 
+.filter-container {
+  display: flex;
+  margin-left: -200px;
+  background-color: #f0f0f0;
+  height: 350px;
+
+}
 
 .checkbox-heading {
-color:lightskyblue;
+margin-top: 50px;
+margin-left: 45vw;
+font-size: 70px;
+font-weight: 700;
+color: #81c2eb;
+margin-bottom: 40px;
+}
+
+.filter-title {
+  margin-left: 550px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.filter-group {
+  margin-top: 225px;
+  margin-left: -45vw;
+  justify-content: space-between;
+}
+
+label {
+  font-size: 24px;
+  font-weight: 300;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.ss-series-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 150px;
+  /* margin-left: 90px; */
+  margin-right: 90px;
+  /* width: 90%; */
 }
 
 .ss-series-heading {
 color:lightskyblue;
 }
 
-.container-ss {
+/* .container-ss {
 display: flex;
 display: flexbox;
 flex-direction: row;
+} */
+
+.ss-series-title {
+  position: relative;
+  left: -875px;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.lpx-series-title {
+  position: relative;
+  left: -375px;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.eclipse-series-title {
+  position: relative;
+  left: -375px;
+  font-size: 45px;
+  font-weight: 700;
 }
 
 .ss-lpx-heading {
@@ -831,12 +893,32 @@ color:lightskyblue;
 color:lightskyblue;
 }
 
-.img-with-text {
-text-align: justify;
-width: 400px;
+.boat-side-profile {
+  width: 400px;
 }
 
-.img-with-text img {
-display: block;
-margin: 0 auto;
+.series-profiles p {
+  margin-left: 160px;
+}
+
+.ss-series-family {
+  margin-left: 75px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+
+.lpx-series-family {
+  margin-left: -400px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.eclipse-series-family {
+  margin-left: -400px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
 }
