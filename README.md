@@ -46,7 +46,7 @@
   ![image of inspector tool at 2256px wide](./images/2256-inspector-tool.png)
   landing page full screen
   ![landing fullscreen](./images/fullframeoflandingnav.jpeg)
-  deployed page and page on visual studio codes live server
+  Deployed page view and page on visual studio codes live server next to one another.
   ![deployed and live server page](./images/sidebyside.jpeg)
   Full Monitor screenshot of live server page width at 1960px
   ![full screen shot](./images/full-screen-shot.jpeg)
