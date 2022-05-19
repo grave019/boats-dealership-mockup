@@ -198,6 +198,16 @@ font-size: 32px;
 font-weight: 100;
 }
 
+a .awesomeFont-x {
+  border: none;
+  background-color: transparent;
+  visibility: visible;
+}
+
+a:visited .awesomeFont-x {
+  visibility: hidden;
+}
+
 .transparent-img {
 width: 100vw;
 bottom: 0px;
@@ -638,21 +648,45 @@ border:5px lightskyblue
 display: flex;
 flex-wrap: wrap;
 gap: 25px;
+width: 100vw;
+}
 
+.model-hero {
+  width: 100vw;
 }
 
 .build-yours {
-  background-color: lightskyblue;
+  position: relative;
+  left: 70%;
+  bottom: 250px;
+  background-color: #81c2eb;
   color: white;
+  height: 75px;
+  width: 250px;
+  border: none;
+  font-size: 24px;
+  font-weight: 700;
+  z-index: +1;
 }
+
+
 .build-yours:hover {
   background-color:white;
   color: lightskyblue;
-  border:lightskyblue 1px;
+  border: 1px solid lightskyblue;
 }
 .request-brochure {
-  background-color: lightskyblue;
+  position: relative;
+  left: 84%;
+  bottom: 325px;
+  background-color: #81c2eb;
   color: white;
+  height: 75px;
+  width: 250px;
+  border: none;
+  font-size: 24px;
+  font-weight: 700;
+  z-index: +1;
 }
 
 .request-brochure:hover {
@@ -661,16 +695,49 @@ gap: 25px;
   border:lightskyblue 1px;
 }
 
-.play-icon {
+.btn-play-icon:hover {
+  border: 2px solid #81c2eb;
+}
+
+.play-icon-white {
+  visibility: visible;
+  margin-top: 25px;
+  margin-left: 25px;
+  width:110px;
+  height:119px;
+  color:white;
+  background-color: lightskyblue;
+}
+.play-icon-white:hover {
+  visibility: hidden;
+}
+
+.play-icon-blue {
+  border: 1px solid black;
+  visibility: hidden;
 width:76px;
 height:82px;
 color:white;
 background-color: lightskyblue;
+margin-left: -76px;
+}
+.play-icon-blue:hover {
+  visibility: visible;
+  background-color: white;
+}
+
+.video-button-title {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-left: 40px;
 }
 
 .btn-play-icon {
-width: 336px;
-height: 143 px;
+  margin-left: -360px;
+  margin-right: 15px;
+width: 475px;
+height: 200px;
 color:white;
 background-color: lightskyblue;
 }
@@ -688,18 +755,50 @@ color:lightskyblue;
 border:lightskyblue 1px;
 }
 
-.boat-specs-icon {
+.boat-specs-icon-white {
+  visibility: visible;
+  width: 156px;
+  height: 150px;
+color:white;
+background-color: lightskyblue;
+margin-top: 20px;
+}
+
+.boat-specs-button-title {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.boat-specs-icon-white:hover {
+  visibility: hidden;
+}
+
+.boat-specs-icon-blue {
+  visibility: hidden;
 width:76px;
 height:82px;
 color:white;
 background-color: lightskyblue;
 }
 
+.boat-specs-icon-blue:hover {
+  visibility: visible;
+  background-color: white;
+}
+
 .btn-boat-specs {
-width: 336px;
-height:143px;
+  margin-right: 15px;
+width: 475px;
+height: 200px;
 color:white;
 background-color: lightskyblue;
+}
+.btn-boat-specs:hover {
+background-color:white;
+color: lightskyblue;
+border: 1px solid lightskyblue;
 }
 
 
@@ -715,20 +814,30 @@ color:lightskyblue;
 border:lightskyblue 1px;
 }
 
-.gallery-icon {
-width:76px;
-height:82px;
+.gallery-icon-white {
+  visibility: visible;
+  margin-top: 0px;
+width: 150px;
+height: 150px;
 color:white;
 background-color: lightskyblue;
 }
 
 .btn-gallery {
-width: 336px;
-height: 143px;
+  margin-right: 15px;
+width: 475px;
+height: 200px;
 color:white;
 background-color: lightskyblue;
 }
 
+.gallery-button-title {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-left: 40px;
+  
+}
 
 .gallery-icon:hover {
 background-color: white;
@@ -742,22 +851,33 @@ color:lightskyblue;
 border:lightskyblue 1px;
 }
 
-.info-icon {
-width:76px;
-height:82px;
+.info-icon-white {
+  visibility: visible;
+  width: 100px;
+  height: 100px;
 color:white;
 background-color: lightskyblue;
+margin-top: 20px;
 }
 
 .btn-info {
-display: flexbox;
-flex-direction: row;
-width: 300px;
-height: 143px;
+/* display: flexbox;
+flex-direction: row; */
+/* margin-left: 1170px; */
+position: relative;
+left: 91%;
+top: -225px;
+width: 475px;
+height: 200px;
 color:white;
 background-color: lightskyblue;
 }
-
+.more-info-button-title {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-left: 40px;
+}
 
 .info-icon:hover {
 background-color: white;
@@ -771,25 +891,106 @@ color:lightskyblue;
 border:lightskyblue 1px;
 }
 
+.watch-it-in-action-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+  margin-left: 70px;
+}
+
+.watch-it-in-action-title {
+  margin-top: 15px;
+  margin-left: -25px;
+  font-size: 60px;
+  font-weight: 700;
+  color: #81c2eb;
+  width: 350px;
+}
+
+.watch-it-in-action-explained {
+  font-size: 22px;
+  line-height: 45px;
+  width: 375px;
+  margin-left: -535px;
+  margin-top: 200px;
+}
+
+.action-title-crownline-image {
+  /* float: right; */
+  /* margin-left: -90px; */
+  width: 775px;
+  height: 478px;
+}
+
+.action-title-walkthrough-image {
+  /* float: right; */
+  margin-right: -50px;
+  width: 775px;
+  height: 478px;
+}
+
+.table-specs {
+  width: 100vw;
+}
+
+
+
+
+
 .table {
 background-color: #292b2d;
 color:lightsteelblue;
 }
 
-.sim-boats {
+.sim-boats-container {
 background-color: #f0f0f0;
+display: flex;
+justify-content: space-evenly;
+height: 550px;
+padding-top: 50px;
+margin-top: -75px;
+}
+
+.similar-title {
+  width: 150px;
+  /* margin-top: 25px; */
+  margin-left: 35%;
+  margin-bottom: 50px;
+  font-size: 45px;
+  font-weight: 700;
+  color: #606060;
+}
+
+.similar-side-profile {
+  width: 600px;
+  margin-top: 150px;
+  margin-left: -15px;
+}
+
+.similar-boats-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: -1200px
 }
 
 .gallery-container {
 display: flex;
 background-color: lightskyblue;
 color: white;
+padding-left: 75px;
 }
 
 .gallery-heading {
+  margin-top: 125px;
+  margin-left: 37%;
+  font-size: 70px;
+  font-weight: 700;
+  color:white;
+}
 
-
-
+.gallery-image {
+  width: 675px;
 }
 
 img-table {
@@ -802,8 +1003,28 @@ display:inline;
 margin: 2px .5%; 
 }
 
+.get-in-the-water {
+  width: 100vw;
+}
 
+.in-the-water-more-information {
+  position: relative;
+  left: 4%;
+  bottom: 150px;
+  background-color: #81c2eb;
+  color: white;
+  height: 75px;
+  width: 260px;
+  border: none;
+  font-size: 24px;
+  font-weight: 700;
+  z-index: +1;
+}
 
+.sim-boats-container {
+  background-color: #efefef;
+
+}
 
 
 /* styles for boats.html  */
@@ -921,4 +1142,18 @@ flex-wrap: wrap;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
+}
+
+.model-build-yours {
+  position: relative;
+  left: 63%;
+  bottom: 250px;
+  background-color: #81c2eb;
+  color: white;
+  height: 75px;
+  width: 250px;
+  border: none;
+  font-size: 24px;
+  font-weight: 700;
+  z-index: +1;
 }
