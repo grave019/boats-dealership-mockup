@@ -8,7 +8,7 @@
   
   Click the link below to visit my deployed page.
 
-  <!-- [URL](undefined) -->
+  [Crownline-Mockup-Website](https://grave019.github.io/boats-dealership-mockup/)
 
   ## Table of Contents
   
@@ -24,15 +24,11 @@
   
   ## Goals
 
-  * To increase the functionality of the mockup by researching the existing Crownline website. I was able to see what the client liked that already exist on their current website and expand the mockup pages for better user interface. 
-  
-  * I challenged myself to increase the functionality of the mockup while staying true to the excellent design of the mockup that was given to me. This included have all anchor elements that linked to the existing company site be opened in a new tab.
+  * To increase the functionality of the mockup by researching the existing Crownline website. I was able to see what the client liked that already exist on their current website and expand the mockup pages for better user interface.
 
   * Research Bootstrap documentation along with W3 Schools to better understand coding and styling challenges that were faced in the development process.
 
-  * Gather startup images and material Crownlines website or design materials needed to build the most accurate representation of the Mockup.
-  
-  * Create some degree of mobile responsiveness. Typically, best practices say to build a website mobile first then grow the page as it expands.
+  * Gather startup images and materials from Crownlines website to build the most accurate representation of the Mockup.  
 
   ## Motivation
 
@@ -40,11 +36,9 @@
 
   ## Problems
 
-  * The film strip style carousel on the homepage was initially challenging. I had initally used a variation of a bootstrap carousel but was unhappy with the way it looked.  Overall, It was a wonderful experience to build a sample web page from a designed mockup.
+  * During the development process I've had the website open with visual studio code's Live Server in order to trouble shoot styling during the coding process. The browser width during coding was set at 1960px. However, outside of live server the navbar begins to collapse below a width of 2256px. I have provided images and link to a video displaying page functionality.
   
-  * Some design elements were difficult to replicate and I tried produce them to the best of my ability. I welcome any feedback you could give on the site.
-  
-  * Some degree of mobile responsiveness was achieved via the incorporation of bootstrap. It still is not where it should be for deployment.  
+  * Some design elements were difficult to replicate and I tried produce them to the best of my ability. I welcome any feedback you could give on the site. 
 
   ## Acknowledgements
 

@@ -396,8 +396,7 @@ z-index: -1;
   top: 0;
 }
 
-.dot-container{
-  border: 5px solid orange;
+.dot-container{ 
   height: 50px;
   width: 200px;
   justify-content: space-evenly;
