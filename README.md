@@ -42,9 +42,14 @@
 
   ## Visualizations
 
-  Below is a image that shows layout of the navbar at 2256px wide
+  Below are a image that shows layout of the navbar at 2256px wide.
   ![image of inspector tool at 2256px wide](./images/2256-inspector-tool.png)
-
+  landing page full screen
+  ![landing fullscreen](./images/fullframeoflandingnav.jpeg)
+  deployed page and page on visual studio codes live server
+  ![deployed and live server page](./images/sidebyside.jpeg)
+  Full Monitor screenshot of live server page width at 1960px
+  ![full screen shot](./images/full-screen-shot.jpeg)
   ## Acknowledgements
 
   * The design team at Red Rocket Studios for designing a mockup that was easy to follow and wonderfully designed.
