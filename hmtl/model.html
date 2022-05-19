@@ -12,43 +12,115 @@
 <body>
     <!-- navbar goes here  -->
     <nav class="navbar navbar-default navbar-expand-lg">
-        <div class="container">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="../index.html"><img src="../images/crownline-logo-lg.PNG" alt="Image of Crownline Logo"></a>
-                <ul class="nav navbar-nav">
-                    <li><a href="./boats.html">BOATS</a></li>
-                    <li><a href="../index.html#build">
-                        BUILD A BOAT</a></li>
-                        <!-- added link to dealer locater at crownline's existing website for owner's manuals to give greater navbar functionality. All Links externally should open in a new tab  -->
-                    <li><a href="https://crownline.com/owner-resources/" target="blank">
-                        OWNERS</li>
-                    <!-- added link to dealer locater at crownline's existing website for choosing a boat to give greater navbar functionality. All Links externally should open in a new tab  -->
-                    <li><a href="https://crownline.com/2020-crownline-boat-models/" target="blank">
-                        SHOP</a></li>
-                    <li><a href="#blog">BLOG</a></li>
-                    <!-- added link to the Crownline's existing facebook for greater navbar functionality. External links should open in a new tab  -->
-                    <li><a href="https://www.facebook.com/OfficialCrownlineBoats/" target="blank">
-                        <i class="fab fa-facebook fa-xs"></i>
-                    </a>
+      <!-- <div class="container"> -->
+          <div class="navbar-header">                
+              <div class="nav-menu-body-container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a href="#">
+                        BOATS
+                      </a>
                     </li>
-                   <!-- added link to the Crownline's existing instagram for greater navbar functionality. External links should open in a new tab  --> 
-                    <li><a href="https://www.instagram.com/crownlineboats/?hl=en"target= "blank">
-                        <i class="fab fa-instagram fa-xs"></i>
-                    </a>
+                    <li class="nav-item">
+                      <a href=#>
+                        BUILD A BOAT
+                      </a>
                     </li>
-                    <!-- added link to the Crownline's existing youtube for greater functionality. External links should open in a new tab  -->
-                    <li><a href="https://www.youtube.com/c/CrownlineBoating" target="blank">
+                      <li class="nav-item dropdown" id="owners-button-text">
+                        <a class="nav-link nav-item" id="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="../index.html" id="navbarDropdown">
+                          <span class="owners-button-text">OWNERS</span>
+                          </a>
+                          <!-- 
+
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li class="dropdown-item-resources" id="owner-dropdown">
+                                <h3 class="owners-resources">
+                                  Owner's<br>Resources
+                                </h3>
+                              </li>
+                              <li>
+                                <hr class="dropdown-divider">
+                              </li>
+                              <li class="dropdown-item-video">
+                                <img class="owner-resources-video-image"src="./images/walkthrough.jpg" alt="youtube image of a walkthrough video">
+                                <em>
+                                  <br>
+                                  <span class="owner-video-title">VIDEOS</span>
+                                </em>
+                                <div class="owner-video-text">
+                                  Walkthroughs, how-tos, test videos and more
+                                </div>
+                                <a href="https://crownline.com/crownline-boat-model-videos/" target="blank">
+                                  <div class="owner-video-learn_more">
+                                    LEARN MORE
+                                  </div>
+                                </a>
+                              </li>
+                              <li>
+                                <hr class="dropdown-divider">
+                              </li>
+                              <li class="dropdown-item-manual">
+                                <img class="owner-resources-manual-image" src="./images/digital-owners-manuals.jpg" alt="View from the back of the Driver's Seat">
+                                <em>
+                                  <br>
+                                  <span class="owner-manual-title">DIGITAL OWNER MANUALS</span>
+                                </em>
+                                <div class="owner-manual-text">Resources on use maintenance, and more.
+                                </div>
+                                <a href="https://crownline.com/owner-resources/" target="blank">
+                                  <div class="owner-manual-learn_more">
+                                    LEARN MORE
+                                  </div>
+                                </a>
+                              </li>
+                              <div class="owners-x-mark">
+                                <i class="fa-solid fa-xmark"></i>
+                              </div>
+                            </ul>
+                          </li>
+                        -->
+                        <!-- added link to dealer locater at crownline's existing website for choosing a boat to give greater navbar functionality. All Links externally should open in a new tab  -->
+                        <li><a href="https://crownline.com/2020-crownline-boat-models/" target="blank">
+                          SHOP</a></li>
+                          <li><a href="#">BLOG</a></li>
+                          <!-- added link to the Crownline's existing facebook for greater navbar functionality. External links should open in a new tab  -->
+                          <li><a class="social-media-icon" href="https://www.facebook.com/OfficialCrownlineBoats/" target="blank">
+                            <i class="fab fa-facebook fa-xs"></i>
+                          </a>
+                          
+                          <a  class="social-media-icon" href="https://www.instagram.com/crownlineboats/?hl=en"target= "blank">
+                          <i class="fab fa-instagram fa-xs"></i>
+                        </a>
+
+                        <a class="social-media-icon" href="https://www.youtube.com/c/CrownlineBoating" target="blank">
                         <i class="fab fa-youtube fa-xs"></i>
-                    </a>
+                      </a>                         
+                        </li>
+                        <!-- added link to the Crownline's existing instagram for greater navbar functionality. External links should open in a new tab  --> 
+                        <li>
+                      </li>
+                      <!-- added link to the Crownline's existing youtube for greater functionality. External links should open in a new tab  -->
+                      <li>
                     </li>
-                    <!-- added link to dealer locater at crownline's existing website to give greater navbar functionality. All Links externally should open in a new tab  -->
-                    <li><a href="https://crownline.com/dealer-locator/" target="blank">
+                  </ul>
+                  <div class="find-a-dealer">
+                    
+                    <ul class="nav navbar-nav navbar-right">
+                      <!-- added link to dealer locater at crownline's existing website to give greater navbar functionality. All Links externally should open in a new tab  -->
+                      <li><a href="https://crownline.com/dealer-locator/" target="blank">
                         FIND A DEALER</a></li>
-                    </a>
-                </ul>
-            </div>
-        </div>
-    </nav>
+                      </a>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <a class="navbar-brand" href="../index.html"><img src="../images/crownline-logo-lg.PNG" class="large-black-crownline-logo"alt="Image of Crownline Logo"/></a>
+          </div>
+  </nav>
 
     <!-- Image with Heading along with paragraph and two buttons in this container  -->
     <div class="container">
